@@ -1,0 +1,115 @@
+/* 
+* @Author: sublime text
+* @Date:   2019-04-15 16:46:25
+* @Last Modified by:   sublime text
+* @Last Modified time: 2019-05-08 15:44:46
+*/
+/*公租联网锁css*/
+
+/*标题*/
+.gz_Title{
+	margin-left: 132px;
+	padding-top: 176px;
+	/*margin-bottom: 130px;*/
+	margin-right: 132px;
+}
+
+.gz_Title>div{
+	margin-top: 50px;
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+
+	/*float: left;*/
+}
+
+.gz_Title>p{
+	font-size: 18px;
+	/*padding-left: 78px;*/
+	/*padding-top: 0;*/
+}
+
+/*底图1*/
+.gz_img_1{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/gzs/Base_map1.png);
+	background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.loc_blog_heading{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	color: black;
+}
+
+
+/*底图2*/
+.gz_img_2{
+	width: 100%;
+	height: 532px;
+	background-image: url(../img/gzs/Base_map2.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图3*/
+.gz_img_3{
+	width: 100%;
+	height: 447px;
+	background-image: url(../img/gzs/Base_map3.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图4*/
+.gz_img_4{
+	width: 100%;
+	height: 532px;
+	background-image: url(../img/gzs/Base_map4.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图5*/
+.gz_img_5{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/gzs/Base_map5.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图6*/
+.gz_img_6{
+	width: 100%;
+	height: 312px;
+	background-image: url(../img/gzs/Base_map6.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图7*/
+.gz_img_7{
+	width: 100%;
+	height: 447px;
+	background-image: url(../img/gzs/Base_map7.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.gz_div{
+	width: 100%;
+	height: 200px;
+	background-color: #fefefe;
+}

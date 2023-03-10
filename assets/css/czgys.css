@@ -1,0 +1,106 @@
+/* 
+* @Author: sublime text
+* @Date:   2019-04-15 14:34:39
+* @Last Modified by:   sublime text
+* @Last Modified time: 2019-05-08 15:44:39
+*/
+/*长租公寓锁css*/
+
+/*标题*/
+.cz_Title{
+	margin-left: 132px;
+	padding-top: 176px;
+	/*margin-bottom: 130px;*/
+	margin-right: 132px;
+}
+
+.cz_Title>div{
+	margin-top: 50px;
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+
+	/*float: left;*/
+}
+
+.cz_Title>p{
+	font-size: 18px;
+	/*padding-left: 78px;*/
+	/*padding-top: 0;*/
+}
+
+/*底图1*/
+.cz_img_1{
+	width: 100%;
+	height: 344px;
+	background-image: url(../img/czgys/Base_map1.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*底图2*/
+.cz_img_2{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/czgys/Base_map2.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*底图3*/
+.cz_img_3{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/czgys/Base_map3.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*底图4*/
+.cz_img_4{
+	width: 100%;
+	height: 610px;
+	background-image: url(../img/czgys/Base_map4.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*底图5*/
+.cz_img_5{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/czgys/Base_map5.png);
+    background-repeat: no-repeat;
+	background-position: 50% center;
+}
+
+/*底图6*/
+.cz_img_6{
+	width: 100%;
+	height: 407px;
+	background-image: url(../img/czgys/Base_map6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: top center;
+
+}
+
+/*底图7*/
+.cz_img_7{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/czgys/Base_map7.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cz_div{
+	width: 100%;
+	height: 200px;
+	background-color: #fefefe;
+}

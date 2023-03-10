@@ -1,0 +1,76 @@
+/* 
+* @Author: sublime text
+* @Date:   2019-04-15 16:46:25
+* @Last Modified by:   sublime text
+* @Last Modified time: 2019-05-08 15:44:58
+*/
+/*家用指纹锁css*/
+
+/*标题*/
+.jy_Title{
+	margin-left: 132px;
+	padding-top: 176px;
+	/*margin-bottom: 130px;*/
+	margin-right: 132px;
+}
+
+.jy_Title>div{
+	margin-top: 50px;
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+
+	/*float: left;*/
+}
+
+.jy_Title>p{
+	font-size: 18px;
+	/*padding-left: 78px;*/
+	/*padding-top: 0;*/
+}
+/*底图1*/
+.jy_img_1{
+	width: 100%;
+	height: 532px;
+	background-image: url(../img/jys/Base_map1.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图2*/
+.jy_img_2{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/jys/Base_map2.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图3*/
+.jy_img_3{
+	width: 100%;
+	height: 532px;
+	background-image: url(../img/jys/Base_map3.png);
+	background-position: 50% center;
+    background-repeat: no-repeat;
+}
+
+/*底图4*/
+.jy_img_4{
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/jys/Base_map4.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+
+.jy_div{
+	width: 100%;
+	height: 200px;
+	background-color: #fefefe;
+}

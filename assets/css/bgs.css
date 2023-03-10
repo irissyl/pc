@@ -1,0 +1,89 @@
+/* 
+* @Author: sublime text
+* @Date:   2019-04-15 16:46:25
+* @Last Modified by:   sublime text
+* @Last Modified time: 2019-05-08 15:44:21
+*/
+/*办公锁css*/
+
+/*标题*/
+.bg_Title{
+	margin-left: 132px;
+	padding-top: 176px;
+	/*margin-bottom: 130px;*/
+	margin-right: 132px;
+}
+
+.loc_blog_heading{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	color: black;
+}
+
+.bg_Title>div{
+	margin-top: 50px;
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+
+	/*float: left;*/
+}
+
+.bg_Title>p{
+	font-size: 18px;
+	/*padding-left: 78px;*/
+	/*padding-top: 0;*/
+}
+
+/*底图1*/
+.bg_img_1{
+	width: 100%;
+	height: 312px;
+	background-image: url(../img/bgs/Base_map1.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图2*/
+.bg_img_2{
+	position: relative;
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/bgs/Base_map2.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图3*/
+.bg_img_3{
+	position: relative;
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/bgs/Base_map3.png);
+	background-position: 47% center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*底图4*/
+.bg_img_4{
+	position: relative;
+	width: 100%;
+	height: 795px;
+	background-image: url(../img/bgs/Base_map4.png);
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+
+
+.bg_div{
+	width: 100%;
+	height: 200px;
+	background-color: #fefefe;
+}

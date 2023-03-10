@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Multifarious - Responsive HTML Template 
+Version: 1.0.0
+Author: Kamleshyadav
+Website: 
+Purchase: 
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <!-- Begin Head -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta id="i18n_pagename" content="common">
+<!--    这里是设置id为i18n_pagename, 引入了资源文件common-->
+    <!-- <meta id="i18n_pagename" content="common"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/font.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/comman.css" />
+    <link rel="stylesheet" href="assets/css/style1.css" />
+    <link rel="stylesheet" href="assets/css/style3.css" />
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="assets/images/index5/favicon.svg"
+    />
+    <link rel="stylesheet" href="assets/css/btn03.css" />
+	
+  </head>
+  <body>
+    <!-- Preloader Box -->
+	<div class="preloader_wrapper preloader_active preloader_open">
+        <div class="preloader_holder">
+            <div class="preloader d-flex justify-content-center align-items-center h-100">
+                <span></span>
+				<span></span>
+				<span></span>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Box -->
+	 <div class="preloader_wrapper preloader_active preloader_open">
+        <div class="preloader_holder">
+            <div class="preloader d-flex justify-content-center align-items-center h-100">
+                <span></span>
+				<span></span>
+				<span></span>
+            </div>
+        </div>
+    </div>
+    <header class="loc_header_wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+            <div class="loc_logo">
+              <a href="index.html"
+                ><img src="assets/images/index10/logo.png" alt="logo"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-8 col-12" >
+            <div class="loc_main_menu main_menu_parent">
+              <div class="loc_nav_items main_menu_wrapper text-right">
+                <ul >
+                  <li  class="active">
+                    <a class="i18n" name="home" href="index.html"></a>
+                  </li>
+                  <li><a class="i18n" name="project"  href="project.html"></a></li>
+                  <li>
+                    <a class="i18n" name="scene" href="scene.html"></a>
+                  </li>
+                  <li><a class="i18n" name="about" href="about.html"></a></li>
+                  <li><a class="i18n" name="contact" href="contact.html"></a></li>
+                  <li><a class="i18n" name="download" href="download.html"></a></li>
+                </ul>
+              </div>
+              <div class="loc_search_wrapper menu_btn_wrap">
+							<ul class="display_flex">
+								<li>
+									<a href="javascript:void(0);" class="menu_btn">
+										<span></span>
+										<span></span>
+										<span></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+       <div class="fanyi">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light btn-sm" style="background-color: #5350ff;" data-toggle="modal" data-target="#exampleModal">
+          <span class="i18n" name="Language"></span>
+        </button>
+
+        <!-- Modal -->
+        <div class="fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><span class="i18n" name="Language"></span></h5>
+              </div>
+              <div class="modal-body" style="height: 60px;">
+                   <iframe src="./translate.html" aria-hidden="false" tabindex="0"  height='100%'  frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary i18n btn-sm" data-dismiss="modal" name="cancel"></button>
+                <button type="button" class="btn btn-primary i18n btn-sm" onclick="submitLanguage()" name="OK"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+		  </div>
+    </header>
+    <!-- Banner Wraapper -->
+    <!-- Main Wraapper -->
+    <div class="loc_main_wrapper" style="z-index: -1;">
+      <!-- 轮播图 -->
+      <section class="loc_banner_wrapper">
+        <div class="container">
+          <div class="row align-items-flex-end">
+            <div
+              class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex padder_right align-items-center"
+            >
+              <div class="loc_banner_text wow bounceInLeft">
+                <div class="loc_border relative">
+                  <h4 class="relative i18n" name="title"></h4>
+                </div>
+                <h1 class="i18n" name="Smart"></h1>
+                <a href="./project.html" class="loc_btn i18n" name="details"></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <div class="loc_banner_img text-right">
+                <img src="assets/images/home/deslogo.png" height="700px"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 解决方案 -->
+      <section class="dr_services_wrapper">
+        <div class="container wow slideInUp">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+              <div class="dr_heading">
+                <h4 class="i18n" name="scheme_title"></h4>
+                <p class="i18n" name="scheme_describe">
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center">
+              <div class="dr_services_section">
+                <a href="./scene_details/public_housing.html">
+                <span class="dr_icon_bg">
+                 <img src="assets/icon/XX_001.png" alt="" srcset="" />
+                </span>
+                <h4 class="i18n" name="scheme_public"></h4>
+                <p class="i18n" name="scheme_public_describe"></p>
+              </a> 
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center">
+              <div class="dr_services_section">
+                <a href="./scene_details/long-term_apartment.html">
+                <span class="dr_icon_bg">
+                 <img src="assets/icon/kezhangongyu.png" alt="" srcset="" />
+                </span>
+                <h4 class="i18n" name="scheme_apartment"></h4>
+                <p class="i18n" name="scheme_apartment_describe"></p>
+              </a> 
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center">
+              <div class="dr_services_section">
+                <a href="./scene_details/school.html">
+                <span class="dr_icon_bg">
+                  <img src="assets/icon/xuexiao.png" alt="" srcset="" />
+                </span>
+                <h4 class="i18n" name="scheme_school"></h4>
+                <p class="i18n" name="scheme_school_describe"></p></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center">
+              <div class="dr_services_section">
+                <a href="./scene_details/office.html">
+                <span class="dr_icon_bg">
+                  <img src="assets/icon/wulianwang.png" alt="" srcset="" />
+                </span>
+                <h4 class="i18n" name="scheme_office"></h4>
+                <p class="i18n" name="scheme_office_describe"></p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 产品 -->
+      <section class="loc_project_wrapper">
+        <div class="container wow slideInUp">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+            <div class="loc_heading_wrapper">
+              <h2 class="i18n" name="our_product"></h2>
+              <p class="i18n" name="product_describe"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+              <div class="loc_project_section">
+                <div class="loc_project_inner relative mb_30">
+                  <div class="loc_project_read">
+                    <p>
+                      <span class="i18n" name="pro_1009"></span><br /><br />
+                      <span class="i18n" name="pro1"></span><br />
+                      <span class="i18n" name="pro2"></span><br />
+                      <span class="i18n" name="pro3"></span><br />
+                      <a href="./product_details/product_1.html" class="i18n" name="details" ></a>
+                    </p>
+                  </div>
+                  <img src="assets/images/product/p1 .png" />
+                </div>
+                 <p class="lockname"><a href="./product_details/product_1.html" class="i18n" name="pro_1009"></a></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+              <div class="loc_project_section">
+                <div class="loc_project_inner relative mb_30">
+                  <div class="loc_project_read">
+                    <p>
+                      <span class="i18n" name="pro_1010"></span><br /><br />
+                      <span class="i18n" name="pro4"></span><br />
+                      <span class="i18n" name="pro5"></span><br />
+                      <a href="./product_details/product_1.html"  class="i18n" name="details"></a>
+                    </p>
+                  </div>
+                  <img src="assets/images/product/p3.png" alt="" />
+                </div>
+                <p class="lockname"><a href="./product_details/product_3.html" class="i18n" name="pro_1010"></a></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+              <div class="loc_project_section">
+                <div class="loc_project_inner relative mb_30">
+                  <div class="loc_project_read">
+                    <p>
+                      <span class="i18n" name="pro_1006"></span><br /><br />
+                      <span class="i18n" name="pro6"></span><br />
+                      <span class="i18n" name="pro7"></span><br />
+                      <a href="./product_details/product_1.html"  class="i18n" name="details"></a>
+                    </p>
+                  </div>
+                  <img src="assets/images/product/p2.png" alt="" />
+                </div>
+                <p class="lockname"><a href="./product_details/product_2.html" class="i18n" name="pro_1006"></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center mb_30">
+            <a href="project.html" class="loc_btn mb_0 i18n" name="details"></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 数据展示 -->
+      <section class="loc_counter_wrapper overflow_hidden">
+        <div class="container">
+          <div class="row counter_holder">
+            <div
+              class="col-lg-3 col-md-3 col-sm-6 col-12 mb_30 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div class="counter_item text-center">
+                <div class="loc_counter_icon">
+                  <img src="assets/images/svg/013-appartment.svg" alt="" />
+                </div>
+                <h1>
+                  <span class="count_no" data-count="15">0</span><span>+</span>
+                </h1>
+                <p class="i18n" name="experience"></p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-3 col-sm-6 col-12 mb_30 wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <div class="counter_item text-center">
+                <div class="loc_counter_icon">
+                  <img src="assets/images/svg/012-start.svg" alt="" />
+                </div>
+                <h1>
+                  <span class="count_no" data-count="200"></span>0<span>+</span>
+                </h1>
+                <p class="i18n" name="cases"></p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-3 col-sm-6 col-12 mb_30 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div class="counter_item text-center">
+                <div class="loc_counter_icon">
+                  <img src="assets/images/svg/011-rating.svg" alt="" />
+                </div>
+                <h1>
+                  <span class="count_no" data-count="1200">0</span
+                  ><span>+</span>
+                </h1>
+                <p class="i18n" name="punter"></p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-3 col-sm-6 col-12 mb_30 wow fadeInUp"
+              data-wow-delay="0.4s"
+            >
+              <div class="counter_item text-center">
+                <div class="loc_counter_icon">
+                  <img src="assets/images/svg/014-medal.svg" alt="" />
+                </div>
+                <h1>
+                  <span class="count_no" data-count="2000">0</span
+                  ><span>㎡</span>
+                </h1>
+                <p class="i18n" name="Company_area"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 多种开锁方式 -->
+      <section class="loc_project_wrapper">
+        <div class="container">
+        <div class="row  wow slideInUp">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+            <div class="loc_heading_wrapper" data-move-y="-40px">
+              <h2 class="i18n" name="way"></h2>
+              <p class="i18n" name="way_describe"></p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3 col-mm-6 advantage_col" data-move-y="120px"><img src="assets/img/czgys/ks1.png"><a class="i18n" name="Fingerprint_unlock"></a>
+            <p class="i18n" name="Fingerprint_des"></p>
+          </div>
+          <div class="col-sm-4 col-md-3 col-mm-6 advantage_col" data-move-y="120px"><img src="assets/img/czgys/ks4.png"><a class="i18n" name="Password_unlock"></a>
+            <p class="i18n" name="Password_des"></p>
+          </div>
+          <div class="col-sm-4 col-md-3 col-mm-6 advantage_col" data-move-y="120px"><img src="assets/img/czgys/ks3.png"><a class="i18n" name="card_unlocking"></a>
+            <p class="i18n" name="card_des"></p>
+          </div>
+          <div class="col-sm-4 col-md-3 col-mm-6 advantage_col" data-move-y="120px"><img src="assets/img/czgys/ks2.png"><a class="i18n" name="key_unlocking"></a>
+            <p class="i18n" name="key_des"></p>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+
+      <!--关于我们 -->
+      <section class="loc_about_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb_30">
+              <div class="loc_about_img relative">
+                <div class="loc_effect">
+                  <img
+                    src="assets/images/huanjin/e2 (1).jpg"
+                    alt="Locksmith"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center mb_30"
+            >
+              <div class="loc_about_text">
+                <h4 class="loc_sub_heading relative i18n" name="about"></h4>
+                <h2 class="i18n" name="anlock"></h2>
+                <p></p>
+                <p class="i18n" name="an_one"></p>
+                <div class="loc_divider"></div>
+                <p class="i18n" name="an_two"></p>
+                <div class="loc_divider"></div>
+                <ul class="loc_list_item">
+                  <li>
+                    <a href="./product_details/product_1.html" 
+                      ><span class="fa fa-check-circle"></span><span class="i18n" name="pro_1009"></span>
+                      </a
+                    >
+                  </li>
+                  <li>
+                    <a href="./product_details/product_3.html"
+                      ><span class="fa fa-check-circle"></span
+                      ><span class="i18n" name="pro_1010"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./product_details/product_2.html"
+                      ><span class="fa fa-check-circle"></span><span class="i18n" name="pro_1006"></span>
+                    </a>
+                  </li>
+                </ul>
+                <a href="./project.html" class="loc_btn i18n" name="pro_details"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="loc_counter_wrapper overflow_hidden">
+        <div class="container">
+          <div class="row counter_holder">
+            <div
+              class="col-lg-12 col-md-12 col-sm-12 col-12 mb_30 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div class="counter_item text-center" style="color: black !important;">
+                <h1  class="i18n" name="Customized_requirements"></h1>
+                <p class="i18n" name="Customized_requirements_des"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 场景方案-->
+      <section class="loc_service_wrapper overflow_hidden">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="loc_heading_wrapper full_width">
+              <div class="col-xl-4 col-lg-8 col-md-10 col-sm-12 col-12 offset-xl-4 offset-lg-2 offset-md-1 text-center">	
+                <h2 class="i18n" name="scene"></h2>	
+                <p class="i18n" name="scene_des"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mt_31">
+              <div
+                class="loc_service_section wow fadeInLeft"
+                data-wow-delay="0.1s"
+              >
+                <div class="loc_service_icon">
+                  <img src="assets/images/index10/service/01.png" alt="" />
+                </div>
+                <div class="loc_service_text text-right">
+                  <h4><a href="./scene_details/long-term_apartment.html" class="i18n" name="scheme_apartment"></a></h4>
+                  <p class="i18n" name="scheme_apartment_describe"></p>
+                </div>
+              </div>
+              <div
+                class="loc_service_section wow fadeInLeft"
+                data-wow-delay="0.2s"
+              >
+                <div class="loc_service_icon">
+                  <img src="assets/images/index10/service/02.png" alt="" />
+                </div>
+                <div class="loc_service_text text-right">
+                  <h4>
+                    <a class="i18n" name="homestay" href="./scene_details/Homestay.html"
+                      ></a
+                    >
+                  </h4>
+                  <p class="i18n" name="homestay_des"></p>
+                </div>
+              </div>
+              <div
+                class="loc_service_section wow fadeInLeft"
+                data-wow-delay="0.3s"
+              >
+                <div class="loc_service_icon">
+                  <img src="assets/images/index10/service/03.png" alt="" />
+                </div>
+                <div class="loc_service_text text-right">
+                  <h4><a class="i18n" name="hotel" href="./scene_details/hotel.html"></a></h4>
+                  <p class="i18n" name="hotel_des">
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+              <div class="loc_service_img text-center">
+                <img
+                  src="assets/images/index10/des.png"
+                  alt="Locksmith"
+                  height="300px"
+                  style="margin-top: 120px;"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mt_31">
+              <div
+                class="loc_service_section icon_left wow fadeInRight"
+                data-wow-delay="0.1s"
+              >
+                <div class="loc_service_icon">
+                  <img src="assets/images/index10/service/04.png" alt="" />
+                </div>
+                <div class="loc_service_text">
+                  <h4><a class="i18n" name="scheme_school" href="./scene_details/school.html"></a></h4>
+                  <p class="i18n" name="scheme_school_describe"></p>
+                </div>
+              </div>
+              <div
+                class="loc_service_section icon_left wow fadeInRight"
+                data-wow-delay="0.2s"
+              >
+                <div class="loc_service_icon">
+                  <img src="assets/images/index10/service/05.png" alt="" />
+                </div>
+                <div class="loc_service_text">
+                  <h4><a class="i18n" name="landlord" href="./scene_details/landlord.html"></a></h4>
+                  <p class="i18n" name="landlord_des"></p>
+                </div>
+              </div>
+              <div
+                class="loc_service_section icon_left wow fadeInRight"
+                data-wow-delay="0.3s"
+              >
+                <div class="loc_service_icon">
+                  <img src="assets/images/index10/service/06.png" alt="" />
+                </div>
+                <div class="loc_service_text">
+                  <h4><a class="i18n" name="family" href="./scene_details/home.html"></a></h4>
+                  <p class="i18n" name="family_des"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 案例 Cases -->
+      <section class="loc_project_wrapper">
+        <div class="container wow slideInUp">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+            <div class="loc_heading_wrapper">
+              <h2 class="i18n" name="casestwo"></h2>
+              <p class="i18n" name="casestwo_des"></p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="wrap">
+              <div class="box1">
+                <div class="box i18n"  name="scheme_school"></div>
+                <div class="mask">
+                  <p class="custom-btn btn-3">
+                    <span class="i18n" name="school1_des"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box i18n" name="scheme_apartment"></div>
+                <div class="mask">
+                  <p class="custom-btn btn-3">
+                    <span class="i18n" name="scheme_apartment_describe"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box i18n" name="family"></div>
+                <div class="mask">
+                  <p class="custom-btn btn-3">
+                    <span class="i18n" name="family_des"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box i18n" name="scheme_public"></div>
+                <div class="mask">
+                  <p class="custom-btn btn-3">
+                    <span class="i18n" name="scheme_public_describe"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box i18n" name="scheme_office"></div>
+                <div class="mask">
+                  <p class="custom-btn btn-3">
+                    <span class="i18n" name="scheme_office_describe"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="box1">
+                <div class="box i18n" name="landlord"></div>
+                <div class="mask">
+                  <p class="custom-btn btn-3">
+                    <span class="i18n" name="landlord_des"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+              <a href="./scene.html" class="loc_btn details i18n" name="details"></a>
+            
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Partner Start -->
+      <div class="loc_partner_wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="partner_slider swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/01.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/02.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/03.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/04.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/05.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/06.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/07.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/08.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/09.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/10.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="loc_partners_container mb_30 text-center">
+                      <img src="assets/images/clients/11.png" alt="Locksmith" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="loc_footer_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb_30 padder_left">
+              <div class="loc_widgets">
+                <img
+                  src="assets/images/home/logo.png"
+                  alt="Locksmith"
+                  width="250px"
+                />
+                <p class="i18n" name="anlock"></p>
+                <div class="loc_address_wrap">
+                  <p class="i18n" name="address"></p>
+                  <p class="i18n" name="iPhone"></p>
+                  <p class="i18n" name="Email"></p>
+                  <p class="i18n" name="web"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb_0 padder_right">
+              <div class="loc_widgets">
+                <ul class="Bottom_list">
+                  <li style="position: absolute">
+                    <p>
+                      <img width="90px" src="assets/images/home/QR_code.png" />
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="loc_copyright_wrapper">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+          <p>
+            <span class="i18n" name="bottom_des1"></span>
+           <img
+              width="20px"
+              src="assets/images/home/jz.png"
+            />
+            <span class="i18n" name="bottom_des2"></span>
+            <span class="i18n" name="bottom_des3"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- GO To Top -->
+    <a href="javascript:void(0);" id="scroll"
+      ><span class="fa fa-angle-double-up"></span
+    ></a>
+    <!-- Script Start -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="i18n/jquery.js"></script>
+    <script src="i18n/jquery.i18n.properties.js.js"></script>
+    <script src="i18n/language.js"></script>
+    <script src="i18n/jquery.i18n.properties.js.js"></script>
+    <script src="i18n/language.js"></script>
+    <!-- <script src="assets/js/jquery.i18n.js"></script>	 -->
+    <!-- <script src="assets/js/language.js"></script>	 -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/SmoothScroll.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tilt.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
